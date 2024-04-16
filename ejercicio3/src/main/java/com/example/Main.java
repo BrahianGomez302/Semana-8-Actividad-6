@@ -33,7 +33,7 @@ public class Main {
                     calcularCirculo(scanner);
                     break;
                 case 0:
-                    System.out.println("Saliendo del programa...");
+                    System.out.println("Saliendo del programa..");
                     break;
                 default:
                     System.out.println("Opción inválida. Intente de nuevo.");
