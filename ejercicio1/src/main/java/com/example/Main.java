@@ -22,7 +22,7 @@ public class Main {
         System.out.println("Salario neto: $" + salarioNeto);
     }
 
-    // Método para calcular el salario devengado
+    // Método para calcular el salario devengado.
     public static double calcularSalarioDevengado(int salarioBase, int horasTrabajo, int horasExtras) {
         double pagoHorasTrabajo = salarioBase * (horasTrabajo / 192);
         double pagoHorasExtras = salarioBase / 192 * 1.5 * horasExtras;
