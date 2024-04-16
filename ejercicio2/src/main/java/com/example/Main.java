@@ -12,7 +12,7 @@ public class Main {
        Random rand = new Random();
         int numeroAleatorio = rand.nextInt(max_numero - min_numero + 1) + min_numero;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Bienvenido al juego de adivinar el número");
+        System.out.println("Bienvenido al juego de adivinar el número.");
         System.out.println("Se ha generado un número aleatorio entre " + min_numero + " y " + max_numero + ". Tienes " + max_intentos + " intentos para adivinarlo.");
 
         for (int intento = 1; intento <= max_intentos; intento++) {
